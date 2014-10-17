@@ -27,8 +27,7 @@
 }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
-    //self.titleLabel.text = self.textField.text;
-    self.titleLabel.text = @"Hello, class";
-    //[self.textField resignFirstResponder];
+    self.titleLabel.text = self.textField.text;
+    [self.textField resignFirstResponder]; // This allows the keyboard to go away after the button is pressed.
 }
 @end
