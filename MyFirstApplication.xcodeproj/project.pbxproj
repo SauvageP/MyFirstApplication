@@ -21,6 +21,8 @@
 		433EAC451963343100A6D8D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433EAC271963343000A6D8D8 /* UIKit.framework */; };
 		433EAC4D1963343100A6D8D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 433EAC4B1963343100A6D8D8 /* InfoPlist.strings */; };
 		433EAC4F1963343100A6D8D8 /* MyFirstApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433EAC4E1963343100A6D8D8 /* MyFirstApplicationTests.m */; };
+		433EAC5919633BE000A6D8D8 /* astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 433EAC5819633BE000A6D8D8 /* astronaut.jpg */; };
+		433EAC5B19633C5D00A6D8D8 /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 433EAC5A19633C5D00A6D8D8 /* images-2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		433EAC4A1963343100A6D8D8 /* MyFirstApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		433EAC4C1963343100A6D8D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		433EAC4E1963343100A6D8D8 /* MyFirstApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstApplicationTests.m; sourceTree = "<group>"; };
+		433EAC5819633BE000A6D8D8 /* astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astronaut.jpg; sourceTree = "<group>"; };
+		433EAC5A19633C5D00A6D8D8 /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		433EAC2A1963343000A6D8D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				433EAC5A19633C5D00A6D8D8 /* images-2.jpeg */,
+				433EAC5819633BE000A6D8D8 /* astronaut.jpg */,
 				433EAC2B1963343000A6D8D8 /* MyFirstApplication-Info.plist */,
 				433EAC2C1963343000A6D8D8 /* InfoPlist.strings */,
 				433EAC2F1963343000A6D8D8 /* main.m */,
@@ -229,8 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				433EAC3C1963343000A6D8D8 /* Images.xcassets in Resources */,
+				433EAC5919633BE000A6D8D8 /* astronaut.jpg in Resources */,
 				433EAC2E1963343000A6D8D8 /* InfoPlist.strings in Resources */,
 				433EAC371963343000A6D8D8 /* Main.storyboard in Resources */,
+				433EAC5B19633C5D00A6D8D8 /* images-2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +464,7 @@
 				433EAC541963343100A6D8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		433EAC551963343100A6D8D8 /* Build configuration list for PBXNativeTarget "MyFirstApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				433EAC571963343100A6D8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

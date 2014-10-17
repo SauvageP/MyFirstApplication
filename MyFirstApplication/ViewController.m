@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(UIButton *)sender {
+    //self.titleLabel.text = self.textField.text;
+    self.titleLabel.text = @"Hello, class";
+    //[self.textField resignFirstResponder];
+}
 @end
